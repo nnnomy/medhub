@@ -1,7 +1,37 @@
+
 .header{
 	font-size: 36px;
 	letter-spacing: 1.2px;
 	font-family: helvetica;
 	color:#536240;
 	font-weight: 700;
+}
+.info{
+	position: relative;
+	display: flex;
+	left: 800px;
+	bottom:90px;
+	flex-direction: row;
+
+}
+.vl{
+	border-left:1px solid black;
+	height: 15px;
+	margin: 3px;
+}
+.romania{
+	text-decoration: underline;
+}
+.main-container{
+	display: flex;
+	flex-direction: row;
+}
+.container-title{
+	font-size:33px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #555555;
+
 }
